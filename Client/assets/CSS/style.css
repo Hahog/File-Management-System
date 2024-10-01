@@ -1,0 +1,201 @@
+html {
+    height: 100%;
+    width: 100vw;
+    user-select: none;
+}
+
+body {
+    position: relative;
+    background-color: #0C1821;
+    margin: 0;
+    color: #CCC9DC;
+    min-height: 100%;
+}
+
+h1 {
+    margin: 0;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: #CCC9DC
+}
+
+p {
+    margin: 0;
+}
+
+header {
+    background-color: #324A5F;
+    display: grid;
+    grid-template-columns: 200px 1fr 1fr;
+    padding: 10px 20px 10px 70px;
+}
+
+button {
+    padding: 20px;
+    width: fit-content;
+    height: min-content;
+    background-color: #0C1821;
+    border: none;
+    border-radius: 100px;
+    color: white;
+    font-size: 17px;
+}
+
+header > section {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+header > section > p {
+    font-size: 25px;
+    color: #1B2A41;
+}
+
+header > section > button {
+    padding: 10px 30px 10px 30px;
+    border-radius: 100px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #CCC9DC;
+    border: 1px solid #CCC9DC;
+    background-color: #324A5F;
+}
+
+.headerSectionOpen {
+    display: flex;
+   justify-content: end;
+   align-items: center;
+}
+
+main {
+    margin: 0;
+    position: relative;
+    height: 100%;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+main > h1 {
+    padding-bottom: 40px;
+}
+
+main > section > button {
+    padding: 15px 45px 15px 45px;
+    background-color: #324A5F;
+    color: #CCC9DC;
+    border: none;
+    border-radius: 100px;
+}
+
+footer {
+    background-color: #324A5F;
+    position: absolute;
+    width: 100vw;
+    bottom: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer > button {
+    padding: 15px 45px 15px 45px;
+    background-color: inherit;
+    color: white;
+    border: none;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+
+
+dialog[open] {
+    background-color: #324A5F;
+    padding: 60px 50px 60px 50px;
+    border: 1px solid #CCC9DC;
+    border-radius: 30px;
+}
+
+.dialog {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    position: fixed;
+    margin: 0;
+}
+
+.formInput {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px
+}
+
+.formSectionInput {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.formSectionInput > input {
+    padding: 10px;
+    width: 200px;
+    height: 30px;
+    border: black;
+    border-radius: 100px;
+    background-color: #0C1821;
+    color: white;
+}
+
+.profilButton {
+    padding: 17px;
+    background-color: #324A5F;
+    border-radius: 100px;
+    margin-left: 40px;
+    border: 2px solid #CCC9DC;
+}
+
+.Papka {
+    font-size: 15px;
+    font-weight: bold;
+    display: flex;
+    user-select: none;
+    align-items: center;
+    gap: 20px
+}
+
+.buttonSection {
+    bottom: 0px;
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    align-items: end;
+    gap: 200px;
+    
+}
+
+.select {
+    background-color: #0C1821;
+    color: white;
+    border: none;
+    border-radius: 100px;
+    padding: 10px;
+    width: 220px;
+    height: 40px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.DocherPapka {
+    padding-left: 40px;
+}
